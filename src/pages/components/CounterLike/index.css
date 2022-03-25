@@ -1,0 +1,16 @@
+.like{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 130px;
+    height: 25px;
+    background: green;
+    opacity: 0.9;
+}
+
+.btn__follow::placeholder{
+    color:yellow;
+}

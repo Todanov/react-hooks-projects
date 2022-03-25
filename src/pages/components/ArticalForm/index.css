@@ -1,0 +1,41 @@
+.article__form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.article__form fieldset:not(:first-child){
+    margin-top: 10px;
+}
+
+.article__form__fildset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    border: 1px solid rgb(197, 197, 197)
+
+}
+.article__form__input{
+    width:400px;
+    height: 30px;
+    border: none;
+}
+.article__form__input::placeholder{
+    padding-left:10px;
+    padding-top: 5px;
+}
+._textarea{
+    height:100px;
+}
+.article__publish{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 60px;
+    color: white;
+    background: green;
+    font-size: 20px;
+    margin-left: 280px;
+}

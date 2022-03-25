@@ -1,0 +1,24 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.pagination__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.pagination__item:hover{
+    background-color: gray;
+}
+.active__link{
+    background: brown;
+}

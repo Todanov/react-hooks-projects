@@ -1,0 +1,25 @@
+.tags{
+    display: flex;
+    flex-direction: column;
+    background: rgb(206, 195, 195);
+    border-radius: 8px;
+    list-style: none;
+    justify-content: center;
+    margin-left: 5px;
+    width:150px;
+    padding-left: 15px;
+
+}
+.tag{
+    display: flex;
+    background: rgb(99, 214, 115);
+    margin: 2px;
+    width: 130px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tag__link{
+    color: black;
+}

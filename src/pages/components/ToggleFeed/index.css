@@ -1,0 +1,14 @@
+.toggle {
+    display: flex;
+    flex-direction: row;
+}
+.toggle__names{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+}
+
+.toggle__names li:not(:last-child) {
+    margin-right: 15px;
+}

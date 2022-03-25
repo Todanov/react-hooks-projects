@@ -1,0 +1,59 @@
+.auth__page{
+    display: flex;
+    justify-content: center;
+}
+.auth__page__container{
+    display: flex;
+    max-width: 1000px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.auth__login{
+    text-align: center;
+}
+
+.auth__form{
+    display: flex;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.auth__form fieldset:not(:first-child){
+    margin-top: 20px;
+}   
+    
+.auth__filsed{
+    display: flex;
+    max-width: 500px;
+    padding:10px;
+    margin-right: 10px;
+}
+.auth__email{
+   height: 30px;
+
+   width: 300px;
+}
+.auth__email:hover{
+    border: 2px solid black;
+}
+.auth__btn{
+    display: flex;
+    justify-content: end;
+    margin-left: 220px;
+}
+.auth__btn__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.auth__btn__container:hover{
+    cursor: pointer;
+    color: black;
+    border: 2px solid black;
+}

@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: yellow;
+    justify-content: space-between;
+}
+.header__link{
+    margin-left: 15px;
+}
+.nav{
+    margin-right: 15px;
+}
+.header__nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+}
+.header__nav li:not(:last-child){
+    margin-right:40px;
+}
+.header__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  
+}

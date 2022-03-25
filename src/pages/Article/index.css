@@ -1,0 +1,44 @@
+.article__container {
+  background: rgb(51, 51, 51);
+}
+
+.article__info__page {
+  display: flex;
+  color: rgb(255, 255, 255);
+
+  padding: 2rem;
+  margin-bottom: 2rem;
+  justify-content: start;
+}
+
+.title__info__article {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.title__btns {
+  display: flex;
+  margin-left: 30px;
+}
+
+.article__main__title {
+  font-family: "source serif pro", serif;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+  margin-left: 35px;
+}
+.article__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.article__taglist{
+    margin: 0;
+}

@@ -1,0 +1,19 @@
+.article__tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    
+
+}
+.article__tag{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+
+}
